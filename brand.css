@@ -47,3 +47,8 @@ a:not(.button):hover,.text-link:hover,details p a:hover{color:#ffd42a}
 .theo{grid-template-columns:.9fr 1.1fr}
 .theo-monogram{display:none}
 @media(max-width:700px){.welcome-video{grid-template-columns:1fr;gap:25px}.welcome-video video{max-height:none}.theo-photo-wrap{min-height:360px}.theo-photo-wrap img{max-height:332px}}
+
+/* Keep the main navigation available while visitors move through the page. */
+html{scroll-padding-top:156px}
+header{position:sticky;top:0;z-index:1000;background:#080808}
+@media(max-width:700px){html{scroll-padding-top:88px}nav{top:100%;z-index:1001}}
