@@ -1,0 +1,49 @@
+:root{--paper:#080808;--ink:#f7f7f4;--muted:#b4b4b0;--line:#2a2a28;--lime:#ffd42a}
+body{background:#080808;color:#f7f7f4}
+header,.principles,.faq-section,.faq-section details,.risk{border-color:#2a2a28}
+header{background:#080808}
+.brand-logo{display:block;width:128px;height:128px;object-fit:contain;border-radius:4px}
+header{padding-top:8px;padding-bottom:8px}
+footer .brand-logo{width:88px;height:88px}
+footer .brand-name{display:none}
+.brand-name{color:#fff;border-color:#5a5a55}
+h1 em,.closing h2 em,.principles i,.line-icon,.steps article>span{color:#ffd42a}
+.button{background:#ffd42a;border-color:#ffd42a;color:#080808}
+.button:hover{background:#ffe36a;border-color:#ffe36a;color:#080808}
+.hero-art{background:#101010;border:1px solid #39352a;box-shadow:0 20px 55px #0009}
+.chart-title span{color:#ffd42a}
+.hero-art svg>path{stroke:#ffd42a}
+.hero-art svg g:first-of-type>path{stroke:#fff}
+.hero-art svg g:nth-of-type(2) path{fill:#ffd42a}
+.hero-art svg g:nth-of-type(3) path{fill:#d1d1ca}
+.pill{border-color:#6e6334;color:#ffe06a}
+.note{background:#191919;border-color:#39352a;color:#fff}
+.note p{color:#bbb}
+.learn-grid article{background:#101010;border-color:#2a2a28}
+.learn-grid p,.steps p,.section-heading>p,.free-strip p,.faq-layout>div>p:last-child,details p,.risk p{color:#b4b4b0}
+.topic{border-color:#2a2a28}
+.theo-section{background:#111}
+.theo-monogram{background:#171717;border-color:#38352b;color:#fff}
+.theo-monogram:after{border-color:#635829}
+.free-strip{background:#151515}
+footer .brand-name{color:#fff}
+footer>span,footer>div{color:#b4b4b0}
+.menu{border-color:#69634c;color:#fff;background:#111}
+nav{background:#080808}
+.skip{background:#ffd42a;color:#080808}
+a:not(.button):hover,.text-link:hover,details p a:hover{color:#ffd42a}
+@media(max-width:700px){header{padding-top:6px;padding-bottom:6px}.brand-logo{width:88px;height:88px}footer .brand-logo{width:72px;height:72px}}
+
+.brand-banner{max-width:1240px;margin:32px auto 0;padding:0 48px}.brand-banner img{display:block;width:100%;height:auto;aspect-ratio:3/1;object-fit:cover;object-position:center;border:1px solid #403613;border-radius:8px}
+@media(max-width:700px){.brand-banner{margin:20px auto 0;padding:0 24px}.brand-banner img{border-radius:5px}}
+
+.welcome-video{display:grid;grid-template-columns:.8fr 1.2fr;gap:52px;align-items:center}
+.video-heading h2{margin-bottom:18px}
+.video-heading>p:last-child{color:#b4b4b0;font-size:14px;max-width:360px}
+.welcome-video video{display:block;width:100%;max-height:460px;background:#000;border:1px solid #403613;border-radius:8px}
+.theo-photo-wrap{position:relative;min-height:360px;background:#09121e;overflow:hidden;border:1px solid #39352a;border-radius:8px}
+.theo-photo-wrap img{display:block;width:auto;height:auto;max-width:min(100%,257px);max-height:332px;position:static;object-fit:contain;margin:auto}
+.theo-photo-wrap span{position:absolute;bottom:16px;left:16px;padding:8px 12px;background:#080808e8;border:1px solid #665727;border-radius:3px;font-size:9px;letter-spacing:1.4px;color:#ffd42a}
+.theo{grid-template-columns:.9fr 1.1fr}
+.theo-monogram{display:none}
+@media(max-width:700px){.welcome-video{grid-template-columns:1fr;gap:25px}.welcome-video video{max-height:none}.theo-photo-wrap{min-height:360px}.theo-photo-wrap img{max-height:332px}}
